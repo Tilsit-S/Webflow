@@ -1,0 +1,73 @@
+.header {
+    position: relative;
+    background-color: $tint-blue;
+    width: 100%;
+    padding-bottom: 126px;
+
+    &__nav {
+        display: flex;
+        justify-content: end;
+        padding: 33px 0;
+        position: relative;
+        align-items: center;
+
+        &::before {
+            position: absolute;
+            content: url("../img/header/icon.svg");
+            width: 122px;
+            height: 28px;
+            left: 0;
+        }
+    }
+
+    &__nav-list {
+        display: flex;
+        padding-right: 50px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        color: #bbbbcb;
+    }
+
+    &__nav-item {
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+
+        &:nth-child(1) {
+            color: #ffffff;
+        }
+
+        &:nth-child(5) {
+            text-transform: uppercase;
+        }
+    }
+
+    &__nav-button {
+        padding: 16px 48px;
+        @include font-setting(16px, 28px, 500, #e5e5e5);
+        border: 2px solid rgba(244, 246, 252, 0.2);
+        border-radius: 40px;
+        background-color: inherit;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 0.6;
+        }
+    }
+}
+
+// мой порядок описания стилей
+// position
+// настройки display
+// width
+// height
+// margin & padding
+// font-setting
+// border-setting
+// background-setting
+// всякая хуйня (opacity, transform-setting и тп)
