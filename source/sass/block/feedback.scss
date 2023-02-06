@@ -1,9 +1,105 @@
+.main__feedback {
+    height: 691px;
+}
+
 .feedback__wrapper {
     display: flex;
+    height: 100%;
 }
 
 .feedback__description {
-    background-image: url("/source/img/main/feedback/pic1.png");
-    background-size: 100px 200px;
+    background-image: url("../img/main/feedback/pic1.png");
+    background-repeat: no-repeat;
+    width: 656px;
 }
 
+.feedback__description-wrapper {
+    max-width: 464px;
+    margin: 0 auto;
+}
+
+.feedback__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: $white;
+}
+
+.feedback__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $white;
+}
+
+.feedback__contact-form {
+    background-color: $tint-blue;
+    color: $white;
+    flex-grow: 1;
+}
+
+.contact-forn__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+    margin: 0 auto;
+    padding-top: 96px;
+}
+
+.contact-form__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0 0 16px 0;
+}
+.contact-form__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 40px 0;
+}
+
+.contact-form input {
+    width: 432px;
+    height: 64px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background-color: $tint-blue;
+    color: $grey;
+    padding-left: 32px;
+}
+
+.contact-form input:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.contact-form__button {
+    width: 432px;
+    height: 64px;
+    background: $yellow;
+    border-radius: 41px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    margin-bottom: 28px;
+}
+
+.contact-form__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: $white;
+    text-align: center;
+}
+
+.contact-form__link::after {
+    position: absolute;
+    content: url(../img/main/arrow.svg);
+    right: 70px;
+    width: 29px;
+    margin-bottom: 44px;
+}
