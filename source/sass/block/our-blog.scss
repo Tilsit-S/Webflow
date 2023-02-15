@@ -1,0 +1,64 @@
+.our-blog__wrapper {
+    margin-bottom: 128px;
+}
+
+.our-blog__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.our-blog__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.card__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 405px;
+}
+
+.card__img {
+    margin-bottom: 40px;
+}
+
+.card__date {
+    margin: 0;
+    color: $dark-blue;
+    opacity: 0.7;
+}
+
+.our-blog__description {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 16px 0 0 0;
+    color: $dark-blue;
+}
+
+.our-blog__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 16px 0 0 0;
+    color: $dark-blue;
+}
+
+.our-blog__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-blue;
+}
+
+.our-blog__link::before {
+    position: absolute;
+    content: url("../img/main/how-we-work/arrow.svg");
+    left: 100px;
+    top: 0;
+    width: 29px;
+    color: $dark-blue;
+}

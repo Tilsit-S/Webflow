@@ -1,24 +1,25 @@
-.main__feedback {
+.main__form {
     height: 691px;
+    margin-bottom: 128px;
 }
 
-.feedback__wrapper {
+.form__wrapper {
     display: flex;
     height: 100%;
 }
 
-.feedback__description {
-    background-image: url("../img/main/feedback/pic1.png");
+.form__description {
+    background-image: url("../img/main/form/pic1.png");
     background-repeat: no-repeat;
     width: 656px;
 }
 
-.feedback__description-wrapper {
+.form__description-wrapper {
     max-width: 464px;
     margin: 0 auto;
 }
 
-.feedback__title {
+.form__title {
     font-style: normal;
     font-weight: 600;
     font-size: 54px;
@@ -26,7 +27,7 @@
     color: $white;
 }
 
-.feedback__text {
+.form__text {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -34,7 +35,7 @@
     color: $white;
 }
 
-.feedback__contact-form {
+.form__contact-form {
     background-color: $tint-blue;
     color: $white;
     flex-grow: 1;
