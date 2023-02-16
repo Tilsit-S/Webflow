@@ -1,0 +1,43 @@
+.footer__feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: $tint-blue;
+    color: $white;
+}
+
+.feedback__wrapper {
+    max-width: 1053px;
+    padding-top: 96px;
+}
+
+.information-board__text {
+    position: relative;
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 60px;
+    opacity: 0.8;
+}
+
+.information-board__text::before {
+    position: absolute;
+    content: url("../img/header/icon.svg");
+    width: 122px;
+    height: 28px;
+    left: 0;
+    top: 0;
+}
+
+.social-links {
+    max-width: 400px;
+}
+
+.information-board__list {
+    display: flex;
+    flex-direction: row;
+    max-width: 517px;
+    background-color: #FCD980;
+}
