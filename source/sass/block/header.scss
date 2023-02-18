@@ -41,6 +41,11 @@
         &:nth-child(5) {
             text-transform: uppercase;
         }
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
     }
 
     &__nav-button {
@@ -60,14 +65,3 @@
         }
     }
 }
-
-// мой порядок описания стилей
-// position
-// настройки display
-// width
-// height
-// margin & padding
-// font-setting
-// border-setting
-// background-setting
-// всякая хуйня (opacity, transform-setting и тп)
