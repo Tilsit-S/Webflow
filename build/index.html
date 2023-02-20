@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="page-header header">
-        <div class="header__nav container">
+        <div class="header__nav container" id="home">
             <ul class="header__nav-list">
                 <li class="header__nav-item"><a>Home</a></li>
                 <li class="header__nav-item"><a>About us</a></li>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__how-we-work how-we-work">
+        <section class="main__how-we-work how-we-work" id="how-we-work">
             <div class="how-we-work__wrapper container">
                 <div class="how-we-work__information information">
                     <h2 class="information__title">How we work</h2>
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__features features">
+        <section class="main__features features" id="features">
             <div class="features__wrapper container">
                 <div class="features__information information">
                     <div class="information__wrapper">
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__more-info more-info">
+        <section class="main__more-info more-info" id="more-info">
             <div class="more-info__wrapper container">
                 <dil class="more-info__description">
                     <h2 class="more-info__title">Frequently asked questions</h2>
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__form form">
+        <section class="main__form form" id="form">
             <div class="form__wrapper container">
                 <div class="form__description">
                     <div class="form__description-wrapper">
@@ -203,7 +203,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__our-blog our-blog">
+        <section class="main__our-blog our-blog" id="our-blog">
             <div class="our-blog__wrapper container">
                 <h2 class="our-blog__title">Our blog</h2>
                 <div class="our-blog__card card">
@@ -238,18 +238,18 @@
                     <div class="information-board__social-links social-links">
                         <p class="social-links__visit">Lets Talk!</p>
                         <p class="social-links__text">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
-                        <ul class="social-links__massangers">
-                            <li class="social-links__link">
-                                <a href="#"></a>
+                        <ul class="social-links__list">
+                            <li class="social-links__item">
+                                <a href="#" class="social-links__facebook"></a>
                             </li>
-                            <li class="social-links__link">
-                                <a href="#"></a>
+                            <li class="social-links__item">
+                                <a href="#" class="social-links__tweeter"></a>
                             </li>
-                            <li class="social-links__link">
-                                <a href="#"></a>
+                            <li class="social-links__item">
+                                <a href="#" class="social-links__instagram"></a>
                             </li>
-                            <li class="social-links__link">
-                                <a href="#"></a>
+                            <li class="social-links__item">
+                                <a href="#" class="social-links__linkedIn"></a>
                             </li>
                         </ul>
                     </div>
@@ -264,15 +264,31 @@
                         </li>
                     </ul>
                 </div>
-                <div class="feedback__copyright copyright">
+            </div>
+        </section>
+        <section class="footer__copyright copyright">
+            <div class="feedback__copyright copyright">
+                <div class="copyright__wrapper container">
                     <p class="copyright__text">Copyright 2022, Finsweet.com</p>
                     <ul class="copyright__list">
-                        <li class="copyright__item"></li>
-                        <li class="copyright__item"></li>
-                        <li class="copyright__item"></li>
-                        <li class="copyright__item"></li>
-                        <li class="copyright__item"></li>
-                        <li class="copyright__item"></li>
+                        <li class="copyright__item">
+                            <a href="#home" class="copyright__link">Home</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="#how-we-work" class="copyright__link">Abput Us</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="#features" class="copyright__link">Features</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="#more-info" class="copyright__link">Pricing</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="#form" class="copyright__link">FAQ</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="#our-blog" class="copyright__link">Blog</a>
+                        </li>
                     </ul>
                 </div>
             </div>
