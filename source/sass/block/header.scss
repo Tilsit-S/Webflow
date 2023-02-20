@@ -41,6 +41,11 @@
         &:nth-child(5) {
             text-transform: uppercase;
         }
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
     }
 
     &__nav-button {
