@@ -79,14 +79,20 @@
 .contact-form__button {
     width: 432px;
     height: 64px;
+    padding: 16px 56px;
     background: $yellow;
     border-radius: 41px;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    color: #1B1C2B;
-    margin: 23px 0 28px 0;
-}
+    color: black;
+    margin-bottom: 20px;
+    
+    &:hover {
+    background: black;
+    color: #ffffff;
+    }
+    }
 
 .contact-form__link {
     position: relative;
