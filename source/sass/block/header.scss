@@ -48,6 +48,16 @@
         }
     }
 
+    &__nav-item a {
+        text-decoration: none;
+        color: $text-link;
+
+        &:hover,
+        &:focus {
+            color: $white;
+        }        
+    }
+
     &__nav-button {
         padding: 16px 48px;
         @include font-setting(16px, 28px, 500, #e5e5e5);
@@ -65,14 +75,3 @@
         }
     }
 }
-
-// мой порядок описания
-// position
-// настройки display
-// width
-// height
-// margin & padding
-// font-setting
-// border-setting
-// background-setting
-// всякая хуйня (opacity, transform-setting и тп)
