@@ -42,8 +42,7 @@
 
 .our-projects__list {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
 }
 
 .our-projects__item.item {
