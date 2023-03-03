@@ -10,24 +10,24 @@
     padding: 128px 0;
 }
 
-.how-we-work__information {
+.how-we-work__inform {
     max-width: 405px;
 }
 
-.information__title {
+.inform__title {
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
     color: #282938;
 }
 
-.information__text {
+.inform__text {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
 }
 
-.information__link {
+.inform__link {
     position: relative;
     font-weight: 500;
     font-size: 18px;
@@ -35,7 +35,7 @@
     color: $royal-blue;
 }
 
-.information__link::after {
+.inform__link::after {
     position: absolute;
     content: url("../img/main/how-we-work/arrow.svg");
     right: -49px;
