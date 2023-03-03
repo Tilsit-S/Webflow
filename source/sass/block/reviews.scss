@@ -23,18 +23,18 @@
 
 .reviews__slider {
     position: relative;
-    width: 844px;
+    max-width: 843px;
     height: 250px;
     margin: 20px auto;
     overflow: hidden;
 }
 
 .slider-line {
+    position: relative;
     width: 2532px;
     height: 250px;
     display: flex;
     background: #F4F6FC;
-    position: relative;
     left: 0;
     transition: all ease 1s;
 }
@@ -58,24 +58,32 @@
 
 .reviews__button_prev {
     position: absolute;
+    width: 48px;
+    height: 48px;
     bottom: 155px;
-    right: 150px;
+    right: 120px;
     background: none;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 50%;
     padding: 10px 20px;
     font-size: .9rem;
 }
 
 .reviews__button_next {
     position: absolute;
+    width: 48px;
+    height: 48px;
     bottom: 155px;
     right: 50px;
     background: none;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 50%;
     padding: 10px 20px;
     font-size: .9rem;
+}
+
+.slider__feedback {
+    position: relative;
 }
 
 .slider__feedback p {
@@ -88,11 +96,10 @@
     color: $dark-blue;
 }
 
-.reviews__feedback::before {
+.slider__feedback img {
     position: absolute;
-    content: url("../img/main/reviews/profile.png");
+    width: 250px;
+    height: 56px;
     bottom: 0;
     left: 0;
-    width: 249px;
-    width: 56px;
 }
