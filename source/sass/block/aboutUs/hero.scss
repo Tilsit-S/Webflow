@@ -1,0 +1,37 @@
+.main__hero {
+    padding-top: 220px;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    max-width: 595px;
+}
+
+.hero__plug {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 8px 0;
+    color: $dark-blue;
+}
+
+.hero__title {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    margin: 0 0 31px 0;
+    color: $dark-blue;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    color: $dark-blue;
+    opacity: 0.7;
+}
