@@ -65,10 +65,14 @@
     max-width: 296px;
 }
 
+.tasks__item {
+    border-top: 2px dashed #2405F2;
+}
+
 .item__title::before {
     position: absolute;
     content: url("../img/about-us/who-we-are/circle.svg");
-    top: 0;
+    top: -15px;
     left: 0;
     width: 24px;
     height: 24px;
