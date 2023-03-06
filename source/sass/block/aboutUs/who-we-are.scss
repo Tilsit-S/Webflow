@@ -1,0 +1,95 @@
+.who-we-are {
+    padding: 128px 0;
+}
+
+.who-we-are__list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 112px 109px 80px 80px;
+    background-color: #f4f5f5;
+}
+
+.who-we-are__item {
+    align-items: center;
+}
+
+.who-we-are__item:first-child::before {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    content: "Who we are";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.who-we-are__content {
+    max-width: 515px;
+}
+
+.who-we-are__title {
+    font-size: 38px;
+    line-height: 56px;
+    margin: 0;
+    color: $dark-blue;
+}
+
+.who-we-are__text {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    padding-top: 16px;
+    color: $dark-blue;
+    opacity: 0.7;
+}
+
+.who-we-are__tasks {
+    padding-top: 128px;
+}
+
+.tasks__title {
+    font-size: 48px;
+    line-height: 64px;
+    color: $dark-blue;
+    text-align: center;
+}
+
+.tasks__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks__item {
+    max-width: 296px;
+}
+
+.item__title::before {
+    position: absolute;
+    content: url("../img/about-us/who-we-are/circle.svg");
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    color: $royal-blue;
+}
+
+.item__title {
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding-top: 44px;
+}
+
+.item__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    padding-top: 8px;
+    color: $dark-blue;
+    opacity: 0.7;
+}
