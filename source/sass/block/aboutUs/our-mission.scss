@@ -1,7 +1,59 @@
-.our-mission__mission {
+.main__our-mission {
+    background-color: #eef4fa;
+}
+
+.our-mission__wrapper {
+    padding: 128px 0;
+}
+
+.our-mission__mission,
+.our-mission__our-vision {
     display: flex;
+    justify-content: space-between;
+}
+
+.our-mission__mission {
+    margin-bottom: 96px;
 }
 
 .mission__wrapper {
     max-width: 623px;
+}
+
+.mission__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: $dark-blue;
+}
+
+.mission__title::before {
+    position: absolute;
+    content: "Our Mission";
+    top: -35px;
+    left: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-blue;
+}
+
+.our-mission__our-vision .mission__title::before {
+    position: absolute;
+    content: "Our Vision";
+    top: -35px;
+    left: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-blue;
+}
+
+.mission__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-blue;
+    opacity: 0.7;
 }
