@@ -1,0 +1,21 @@
+.benefits__wrapper {
+    padding: 128px 0;
+}
+
+.benefits__title {
+    margin: 0 0 48px 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: $dark-blue;
+}
+
+.benefits__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__item {
+    background-color: $grey;
+}

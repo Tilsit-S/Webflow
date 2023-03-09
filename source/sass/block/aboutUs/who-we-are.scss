@@ -69,7 +69,7 @@
     border-top: 2px dashed #2405F2;
 }
 
-.item__title::before {
+.tasks__item .item__title::before {
     position: absolute;
     content: url("../img/about-us/who-we-are/circle.svg");
     top: -15px;
