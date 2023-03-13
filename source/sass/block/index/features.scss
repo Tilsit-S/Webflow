@@ -34,7 +34,7 @@
     }
 }
 
-.information__title::before {
+.features .information__title::before {
     position: absolute;
     content: "Features";
     font-size: 16px;
@@ -43,7 +43,7 @@
     right: 270px;
 }
 
-.list__item {
+.features .list__item {
     position: relative;
     max-width: 396px;
     background: #ffffff;
