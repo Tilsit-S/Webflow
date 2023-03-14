@@ -1,5 +1,5 @@
-.benefits__wrapper {
-    padding: 128px 0;
+.main__benefits {
+    margin-bottom: 128px;
 }
 
 .benefits__title {
@@ -14,18 +14,49 @@
 .benefits__list {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 48px;
 }
 
-.benefits .list__item {
-    position: absolute;
-    background-color: $grey;
+.benefits__partners {
+    align-items: center;
 }
 
-.benefits__item a::before {
+.benefits__item {
     position: relative;
-    top: 0;
-    left: 0;
-    content: url("../img/about-us/benefits/100000.svg");
-    width: 50px;
-    height: 25px;
+    width: 405px;
+    background-color: $grey;
+
+    &__title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: $dark-blue;
+    }
+
+    &:nth-child(1)::before {
+        position: absolute;
+        content: url("../img/about-us/benefits/pen.svg");
+        top: 50px;
+        left: 48px;
+    }
+
+    &:nth-child(2)::before {
+        position: absolute;
+        content: url("../img/about-us/benefits/ruler.svg");
+        top: 50px;
+        left: 48px;
+    }
+
+    &:nth-child(3)::before {
+        position: absolute;
+        content: url("../img/about-us/benefits/groupe.svg");
+        top: 50px;
+        left: 48px;
+    }
+}
+
+.benefits__partners {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
 }

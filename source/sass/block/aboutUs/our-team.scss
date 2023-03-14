@@ -1,0 +1,19 @@
+.main__our-team {
+    background-color: $grey;
+}
+
+.our-team__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin: 0 0 48px 0;
+    padding-top: 128px;
+    color: $dark-blue;
+}
+
+.our-team__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 128px;
+}
