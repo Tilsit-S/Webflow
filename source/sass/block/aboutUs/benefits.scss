@@ -17,6 +17,15 @@
 }
 
 .benefits .list__item {
+    position: absolute;
     background-color: $grey;
 }
 
+.benefits__item a::before {
+    position: relative;
+    top: 0;
+    left: 0;
+    content: url("../img/about-us/benefits/100000.svg");
+    width: 50px;
+    height: 25px;
+}
