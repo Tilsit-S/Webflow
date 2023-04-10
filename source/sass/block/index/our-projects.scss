@@ -52,10 +52,19 @@
 }
 
 .our-projects__item:nth-child(1) {
+    position: relative;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
     margin-right: 23px;
+}
+
+.our-projects__item:nth-child(2) {
+    position: relative;
+}
+
+.our-projects__item:nth-child(2) .info-block {
+    width: 100%;
 }
 
 .our-projects img {
