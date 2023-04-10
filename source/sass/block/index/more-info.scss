@@ -57,6 +57,7 @@
     line-height: 32px;
     margin: 32px 0;
     color: $tint-blue;
+    opacity: 0.87;
 }
 
 .item__text_active {
@@ -64,8 +65,15 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
-    color: $tint-blue;
+    color: $dark-blue;
 }
+
+/*
+.item__text_active:not(:nth-child(1)) {
+    display: none;
+}
+*/
+
 
 .questions__list {
     margin: 0;
