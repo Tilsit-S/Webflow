@@ -43,6 +43,8 @@
 .our-projects__list {
     position: relative;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
 }
 
 .our-projects__item .item {
@@ -50,6 +52,9 @@
 }
 
 .our-projects__item:nth-child(1) {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     margin-right: 23px;
 }
 
