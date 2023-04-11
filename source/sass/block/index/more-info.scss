@@ -51,6 +51,7 @@
 }
 
 .item__text {
+    max-width: 624px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -68,14 +69,8 @@
     color: $dark-blue;
 }
 
-/*
-.item__text_active:not(:nth-child(1)) {
-    display: none;
-}
-*/
-
-
 .questions__list {
+    max-width: 846px;
     margin: 0;
     list-style-type: decimal-leading-zero;
 }
